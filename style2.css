@@ -1,0 +1,78 @@
+body{
+    margin: 5;
+    padding: 0;
+
+}
+header{
+    position: relative;
+    display: flex;
+    background: #fff;
+    border: 1px solid #000;
+    box-shadow: 0 0 10px #333;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 5px 70px;
+    z-index: 1;
+
+}
+main{
+    padding-top: 10px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    position: relative;
+}
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #333;
+    padding: 20px;
+    display: block;
+}
+nav a:hover{
+    background-color: black;
+    color: #fff;
+}
+/* .contBox{
+    position: relative;
+    display: flex;
+    flex: 30%;
+    flex-wrap: wrap;
+} */
+
+.box{
+    width: 200px;
+    height: 100px;
+    border: 5px solid red;
+    background-color: blue;
+    color: #fff;
+    margin: 15px;
+    padding: 15px;
+    position: static;
+    text-align: center;
+    display: inline-flex;
+}
+
+.box:nth-child(1) {
+    position: static;
+    top: 0px;
+    left: 100px;
+}
+
+/* .box:nth-child(n + 2) {
+   display: none; }*/
+.listao{
+    position: relative;
+}
+.listao h2{
+    text-align: center;
+    top: 10px;
+    position: sticky;
+    background-color: yellow;
+}

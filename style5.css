@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+aside h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 46px;
+    font-weight: 500px;
+    line-height: 75px;
+    color: pink;
+}
+aside span{
+    color: red;
+}
+main {
+    width: 600px;
+    height: 300px;
+    padding: 40px 57px;
+    border: 1px solid #333;
+   position: relative;
+ 
+}
+
+button {
+    color: #fff;
+    background-color: brown;
+    border: none;
+    width: 300px;
+    height: 40px;
+    font-size: 30px;
+    cursor: pointer;
+}
+label {
+    font-size: 25px;
+}
+main form input {
+    width: 400px;
+    height: 50px;
+   
+}
+#checar {
+width: 20px;}
+footer{
+    
+    background-color: brown;
+    font-size: 30px;
+    text-align: center;
+    height: auto;
+}
+footer span{
+    color: blue;
+}
+
+.content{
+    display: grid ;
+    grid-template-areas: 
+    
+    ". . . ."
+    ". logo .  form"
+    ". logo . form"
+    ". logo . form"
+    ". . .  .";
+    
+    gap: 8.5rem;
+    
+}
+main {
+    grid-area: form;
+}
+aside {
+    grid-area: logo;
+}
+
+
+
+
+
+
+
+
+
+

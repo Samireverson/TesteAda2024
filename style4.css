@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.btGrid{
+    width: 400px;
+    color: pink;
+    background-color: brown;
+    padding: 8px 10px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#email, #password{
+    width: 300px;
+    padding: 8px 10px;
+    font-size: 15px;
+}
+.content {
+    border: 1px solid black;
+    width: 600px;
+    
+}
+.inputgp{
+    /* border: 1px solid black; */
+    
+    padding: 10px 10px;
+    gap: 8px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: brown;
+    font-size: 30px;
+    text-align: center;
+    height: auto;
+}
+span{
+    color: blue;
+}
+aside{
+    padding: 200px;
+}
+
+p:nth-child(1) {
+    color: pink;
+}
+p:nth-child(2) {
+    color: red;
+}
+.pageGrid{
+    height: 100vh;
+    display: grid;
+    gap: 50px 0;
+
+    grid-template-areas: 
+        ". . . . " 
+        ". title . login "
+        ". title . login "
+        ". title . login "
+        ". . . . " 
+
+    ". footer  footer .";
+
+    gap: 8.5rem;
+}
+main{
+    grid-area: title;
+}
+aside{
+    grid-area: login;
+}
+footer{
+    grid-area: footer;
+}

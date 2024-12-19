@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style4.css">
+    <title>Document</title>
+</head>
+<body>
+    <a href="/primeiro.html">PRIMEIRA ABA</a><a href="/quinto.html">Quinta ABA</a>
+
+    <div class="pageGrid">
+        <main>
+            <h1>
+                <p>SEJA BEM VINDO(A)</p>
+                <p>DELICIAS DA SAMIRA</p>
+            </h1>
+            <I><img src="/samira_delicious-removebg-preview.png" alt="logo imperiusDev" height="200px"></I>
+        </main>
+        <aside>
+            <div class="content">
+                <div class="inputgp">
+                    <label for="email">Seu Email</label>
+                    <input type="email" name="" id="email" placeholder="digite seu email">
+                </div><br>
+                <div class="inputgp">
+                    <label for="password">Sua Senha</label>
+                    <input type="password" name="" id="password" placeholder="digite sua senha"><input type="checkbox" name="" id="checar"><label for="">Mostrar senha</label>
+                    <br><br>
+                    <button class="btGrid">ENTRAR</button>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <div>
+        <footer>DESENVOLVIDO POR IMPERIUS <span>DEV</span> <img src="imperius_DevLogu.png" alt="" width="90px"></footer>
+    </div>
+
+    <script>
+        const pass = document.getElementById('password');
+        const check = document.getElementById('checar');
+
+        check.onclick = togglePassowrd;
+        function togglePassowrd(){
+            if(check.checked){password.type = 'text';}
+            else{
+                password.type = 'password';
+            }
+        }
+    
+    </script>
+</body>
+</html>
